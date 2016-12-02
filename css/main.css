@@ -1,0 +1,24 @@
+h1 {
+   font-family: 'Playfair Display', serif;
+   color: #4682B4
+}
+
+p {
+    font-family: 'Titillium Web', sans-serif;
+    color: #696969
+}
+
+td {
+    font-family: 'Noto Serif', serif;
+    color: #4682B4
+}
+
+h4 {
+    font-family: 'Catamaran', sans-serif;
+    color: #696969
+}
+
+th {
+    font-family: 'Noto Serif', serif;
+    color: #191970
+}
