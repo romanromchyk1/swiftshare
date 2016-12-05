@@ -22,3 +22,49 @@ th {
     font-family: 'Noto Serif', serif;
     color: #191970
 }
+
+html {
+    display: block;
+}
+
+head {
+    display: none;
+}
+
+body {
+    font-size: 14px;
+    font-family: verdana;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    min-width: 220px;
+}
+
+.container {
+    text-align: left;
+    margin: 0;
+    max-width: 984px;
+    min-width: 984px;
+    clear: both;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+
+#footer {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+article {
+    width: 100%;
+    max-width: 1000px;
+}
+
+table {
+    vertical-align: middle;
+}
