@@ -9,12 +9,12 @@
     <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
+<body link="red" vlink="#191970" alink="#ff0000" bgcolor="black">
         <article>
             <header>
                 <div style="text-align: center; margin: 0 auto">
-                    <a href="index.html"><img src="img/s_logo.jpg" width="100" height="100" alt="Website Logo" style="border: 0pt; margin-left: 0px; margin-bottom: 10px"></a>
-                    <h1>Swiftshare</h1>
+                    <a href="index.html"><img src="img/logo_full.jpg" width="100" height="100" alt="Website Logo" style="border: 0pt; margin-left: 0px; "></a>
+                    <h1 style="margin-top: 17px">Swiftshare</h1>
                 </div>
                 <div style="text-align: center; margin: auto;">
                     <a href="signup.html">Sign Up!</a>
@@ -25,13 +25,19 @@
                     <input type="button" value="Login">
                 </div>
             </header>
-            <nav style="float: left; text-align: center; margin: 0 auto;">
-                <br><a href="uploadtool.html">Upload Tool</a>
+            <nav style="text-align: center; margin: 0 auto;">
+                <span style="float: left">
+                    <br><a href="uploadtool.html">Upload Tool</a>
+                </span>
             </nav>
-            <select style="float: right;"><option>English</option>
+            <span style="float: right; align-top: -10px">
+                <label for="lang">Choose language</label>
+            <select>
+                <option>English</option>
                 <option>Deutsche</option>
                 <option>Українська</option>
             </select>
+            </span>
             <div id="main_text" style="margin: 0 auto; text-align: center; font-size: 15pt;">
             <br><p>Select or Drag & Drop your files for upload (maximum 200 MB each):</p>
             </div>

@@ -1,6 +1,6 @@
 h1 {
    font-family: 'Playfair Display', serif;
-   color: #4682B4
+   color: #191970;
 }
 
 p {
@@ -10,7 +10,7 @@ p {
 
 td {
     font-family: 'Noto Serif', serif;
-    color: #4682B4
+    color: #191970;
 }
 
 h4 {
@@ -32,7 +32,7 @@ head {
 }
 
 body {
-    background-image: url("/img/white_background_image.jpg");
+    background-color: #E0FFFF;
     background-size: 100%;
     background-attachment: fixed;
     background-repeat: repeat-y;
@@ -49,7 +49,6 @@ body {
     margin: 0;
     max-width: 984px;
     min-width: 984px;
-    clear: both;
     padding: 0;
 }
 
@@ -57,11 +56,11 @@ div {
     display: block;
 }
 
-#footer {
+footer {
     max-width: 100%;
     height: auto;
-    margin: auto;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 article {
@@ -95,18 +94,20 @@ main_text {
 .inputfile + label {
     font-size: 1.25em;
     font-weight: 700;
-    color: white;
-    background-color: grey;
+    color: #191970;
     display: inline-block;
 }
 
 .inputfile:focus + label,
 .inputfile + label:hover {
-    background-color: grey;
 }
 
 .inputfile + label {
 	cursor: pointer; /* "hand" cursor */
+}
+
+header {
+    margin-top: 10px;
 }
 
 
