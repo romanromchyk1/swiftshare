@@ -9,23 +9,34 @@
     <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
-<body link="red" vlink="#191970" alink="#ff0000" bgcolor="black">
+<body link="blue" vlink="#191970" alink="#ff0000" bgcolor="black">
     <article>
         <header>
+            <div class="logoCenter">
             <a href="index.html"><img src="img/logo_full.jpg" width="100" height="100" alt="Website Logo"></a>
             <h1>Swiftshare</h1>
+            </div>
         </header>
         <nav>
+            <span class="leftstr">
             <br><a href="uploadtool.html">Upload Tool</a>
-            <label for="lang">Choose language</label>
+            </span>
+            <span class="rightstr">
+            <br><label for="lang">Choose language</label>
             <select><option>English</option>
             <option>Deutsche</option>
             <option>Українська</option>
             </select>
+            </span>
         </nav>
+        <div class="createAcc">
         <h2>Create your account</h2>
+        </div>
+        <div class="mainText">
         <p>Simply fill in the fields below and you're done</p>
-        <form id="signupform">
+        </div>
+        <form>
+            <div class="signupform">
             <label for="firstname">First Name:</label>
             <input type="text" name="firstname" id="firstname" required>
             <br><label for="lastname">Last Name:</label>
@@ -40,7 +51,11 @@
             <input type="text" name="email" id="email" required>
             <br><input id="accept" type="checkbox" name="accept" value="checkbox"> I have read and accept the Terms and Conditions of Use.
             <br><a href="index.html"><input type="button" value="Create My Account"></a>
+            </div>
         </form>
     </article>
+    <footer class="footer2">
+        <h4>2016 Swiftshare.com. All rights reserved.</h4>
+    </footer>
 </body>
 </html>

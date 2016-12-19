@@ -32,7 +32,7 @@ head {
 }
 
 body {
-    background-color: #E0FFFF;
+    background-color: #F0F8FF;
     background-size: 100%;
     background-attachment: fixed;
     background-repeat: repeat-y;
@@ -56,11 +56,14 @@ div {
     display: block;
 }
 
-footer {
+.footer {
     max-width: 100%;
-    height: auto;
     text-align: center;
-    margin-bottom: 40px;
+    background-color: #FFFACD;
+    height: 42px;
+    margin: auto;
+    position: relative;
+    margin-top: 113px;
 }
 
 article {
@@ -68,19 +71,6 @@ article {
     max-width: 1000px;
 }
 
-
-main_text {
-    margin: auto;
-    font-size: 16pt;
-}
-
-.nav {
-    margin: auto;
-    text-align: center;
-    vertical-align: middle;
-    left: 0;
-    top: 0;
-}
 
 .inputfile {
 	width: 0.1px;
@@ -107,8 +97,111 @@ main_text {
 }
 
 header {
-    margin-top: 10px;
+    height: 210px;
+    margin-top: 0px;
+    background-color: #FFFACD;
+    padding-top: 10px;
 }
 
+a {
+    text-decoration: none;
+}
 
+.logoCenter {
+    text-align:center;
+    margin: auto;
+    
+}
+
+.signForm {
+    text-align: center;
+    color: #191970;
+}
+
+.mainText {
+    text-align: center;
+    font-size: 18pt;
+    color: #191970;
+}
+
+#nametext {
+    font-size: 18pt;
+}
+
+.getFile {
+    text-align: center;
+    font-size: 14pt;
+}
+
+table {
+    text-align: left;
+    margin: auto;
+    font-size: 12pt;
+}
+ 
+.leftstr, .rightstr {
+    float: left;
+    width: 50%;
+}
+
+.rightstr {
+    text-align: right;
+    color: #191970;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.toolText {
+    text-align: center;
+    font-size: 11pt;
+    color: #191970;
+}
+
+.leftImg, .rightImg {
+    float: left;
+}
+
+.rightImg {
+    float: right;
+}
+
+.tekst {
+    text-align: center;
+    font-size: 11pt;
+}
+
+.footer1 {
+    max-width: 100%;
+    text-align: center;
+    background-color: #FFFACD;
+    height: 42px;
+    margin: auto;
+    position: relative;
+    margin-top: 62px;
+}
+
+.createAcc {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12pt;
+    color: #191970;
+}
+
+.signupform {
+    text-align: left;
+    color: #191970;
+    margin: auto;
+}
+
+.footer2 {
+    max-width: 100%;
+    text-align: center;
+    background-color: #FFFACD;
+    height: 42px;
+    margin: auto;
+    position: relative;
+    margin-top: 95px;
+}
 
