@@ -15,7 +15,7 @@ $(function() {
             },
             dataType: "json"
         }).done(function() {
-            $('form').html('<h1>Done!For return to "Home" click on logo :)</h1>');
+            $('form').html('<h1>Done! For return to "Home" click on logo :)</h1>');
         });
     });
 });
